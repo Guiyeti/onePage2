@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One-Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b2679fe08f.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="./img/logo.png"></div>
+        <div class="menu">
+            <img src="img/menu.png" alt="" />
+        </div>
+        <div class="nav-bar">
+            <ul class="nav-links">
+                <div class="nav-item">
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <div class="active-nav"></div>
+                </div>
+                <div class="nav-item">
+                    <li><a href="#">Portafolio</a></li>
+                </div>
+                <div class="nav-item">
+                    <li><a href="#">Contactar</a></li>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <div class="contenedor">
+        <div id="introduccion">
+            <p class="titulos"><strong>DALE A TU NEGOCIO<br> <span>EL IMPULSO DEFINITIVO</span></strong></p><br />
+            <p class="texto">Mediante avanzados métodos de análisis detectaremos las fortalezas de tu
+                negocio para potenciarlas y sus debilidades para contrarrestarlas. ¿Listos
+                para el despegue?</p><br />
+            <button class="show-login"><svg width="24" height="24" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20,4H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M20,6v0.01L12,11L4,6.01V6H20z M4,18V8l8,5l8-5v10H4z"
+                        fill="currentColor" />
+                </svg>&nbsp;&nbsp;CONTACTAR</button>
+            <div class="popup">
+                <form action="">
+                    <div class="close-btn">&times;</div>
+                    <div class="form">
+                        <h2>Contáctanos</h2>
+                        <div class="form-element">
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" id="nombre" placeholder="nombre" required />
+                        </div>
+                        <div class="form-element">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" placeholder="email" required />
+                        </div>
+                        <div class="form-element">
+                            <label for="info">Háblanos sobre tu proyecto</label>
+                            <textarea name="textarea" id="info" cols="25" rows="10"></textarea>
+                        </div>
+                        <div class="form-element">
+                            <button type="submit" class="enviar">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="estadisticas">
+            <div class="estadistica1">
+                <h2>+1000 Páginas</h2>
+                <p>Creadas por nosotros</p>
+            </div>
+            <div class="estadistica">
+                <h2>100% Creadas </h2>
+                <p>Con tus preferencias
+                <p>
+            </div>
+            <div class="estadistica1">
+                <h2>+500 Valoraciones </h2>
+                <p>De nuestros proyectos</p>
+            </div>
+            <div class="estadistica">
+                <h2>100% Soporte </h2>
+                <p>Desde su creación</p>
+            </div>
+        </div>
+    </div>
+    <lottie-player id="cohete_animacion" src="./lottie/CoheteAnimado.json"></lottie-player>
+    <div id="despegaras">
+        <h2 id="tituloDespegaras">Así <span>Despegarás</span> con Nosotros</h2>
+        <p>
+            Nos aseguraremos de que tengas total claridad en cada paso que damos con
+            tu proyecto.
+        </p>
+        <div id="despegaras1">
+            <img src="./img/1.svg" alt="número 1" />
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation
+            </p>
+        </div>
+        <div id="despegaras2">
+            <img src="./img/2.svg" alt="número 2" />
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation
+            </p>
+        </div>
+        <div id="despegaras3">
+            <img src="./img/3.svg" alt="número 3" />
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation
+            </p>
+        </div>
+    </div>
+    <div id="tenerCuenta">
+        <h2 id="tituloTenerCuenta">Debes Tener en Cuenta Que</h2>
+        <div id="tenerCuenta1">
+            <p>
+                La gente visita tu página por una razón: analicémosla y sabremos dónde
+                actuar.
+            </p>
+            <img src="./img/pantalla.svg" alt="ordenador" />
+            <p>
+                Aproximadamente el 60-70% de los visitantes abandonan una página web
+                si no encuentran lo que buscan en los primeros 15 segundos..
+            </p>
+        </div>
+        <div id="tenerCuenta2">
+            <p>
+                Las visitas a tu web son posibles clientes y generan
+                datos.¡Aprovechemos ese potencial!
+            </p>
+            <img src="./img/clientes.svg" alt="pantalla" />
+            <p>
+                El 8% de los consumidores investigan un producto o servicio en línea
+                antes de realizar una compra en una tienda física o en línea.
+            </p>
+        </div>
+        <div id="tenerCuenta3">
+            <p>
+                La investigación metódica de tu página y sus usuarios conllevará una
+                estrategia ganadora.
+            </p>
+            <img src="./img/grafica.svg" alt="coheteGraficos" />
+            <p>
+                El 72% de los especialistas en marketing consideran crucial entender
+                el comportamiento del usuario para una estrategia en línea efectiva.
+            </p>
+        </div>
+    </div>
+    <div id="opiniones">
+        <h2 id="titulOpiniones">Opiniones</h2>
+        <div id="opinion1">
+            <img src="./img/mujer1.svg" alt="persona1" width="100" height="100" />
+            <img src="./img/estrellas.svg" alt="estrellas" />
+            <p>Sandra H.</p>
+            <p>Rápido y sencillo!</p>
+        </div>
+        <div id="opinion2">
+            <img src="./img/mujer2.svg" alt="persona2" width="100" height="100" />
+            <img src="./img/estrellas.svg" alt="estrellas" />
+            <p>Marta E.</p>
+            <p>Excelente trabajo y trato al cliente.</p>
+        </div>
+        <div id="opinion3">
+            <img src="./img/hombre1.svg" alt="persona3" width="100" height="100" />
+            <img src="./img/estrellas.svg" alt="estrellas" />
+            <p>Marcos A.</p>
+            <p>Los recomiendo a todo nuevo emprendedor.</p>
+        </div>
+        <div id="opinion4">
+            <img src="./img/hombre2.svg" alt="persona4" width="100" height="100" />
+            <img src="./img/estrellas.svg" alt="estrellas" />
+            <p>Fran P.</p>
+            <p>Contento y satisfecho con el servicio.</p>
+        </div>
+    </div>
+    <div id="tecnologias">
+        <h2 id="tituloTecnologias">Tecnologías que Utilizamos</h2>
+        <div class="nombreTecnologias">
+            <div class="scroll_">
+                <div>
+                    <p class="scroll-list">
+                        <i class="fa-brands fa-html5 fa-4x"></i>HTML
+                    </p>
+                </div>
+                <div>
+                    <p class="scroll-list"><i class="fa-brands fa-js fa-4x"></i>JS</p>
+                </div>
+                <div>
+                    <p class="scroll-list">
+                        <i class="fa-brands fa-css3-alt fa-4x"></i>CSS
+                    </p>
+                </div>
+                <div>
+                    <p class="scroll-list">
+                        <i class="fa-brands fa-figma fa-4x"></i>Figma
+                    </p>
+                </div>
+                <div>
+                    <p class="scroll-list">
+                        <i class="fa-brands fa-dev fa-4x"></i>WebDev
+                    </p>
+                </div>
+                <div>
+                    <p class="scroll-list">
+                        <i class="fa-brands fa-bitbucket fa-4x"></i>BitBucket
+                    </p>
+                </div>
+                <div>
+                    <p class="scroll-list">
+                        <i class="fa-solid fa-laptop-code fa-4x"></i>Diseño
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="convencido">
+        <p>¿TE HEMOS CONVECIDO?<br> ENTONCES CONTÁCTANOS</p>
+        <button class="show-login"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M20,4H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V6C22,4.9,21.1,4,20,4z M20,6v0.01L12,11L4,6.01V6H20z M4,18V8l8,5l8-5v10H4z"
+                    fill="currentColor" />
+            </svg>&nbsp;&nbsp;CONTACTAR</button>
+    </div>
+    <footer>
+        <div id="footer">
+            <p>Condiciones & Privacidad & Cookies</p>
+            <p>despegaweb@business.com</p>
+            <p>Hecho por E.J.E</p>
+        </div>
+    </footer>
+    <!-- Librerias -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Flip.min.js"
+        integrity="sha512-omCJ8S/xl+DUjxNTqvhVSptHwIEi0IDp52n63HEj8ThJgSK/8Lcpi9btnTdE8db+Y4cDKZrZ7NQZBX4PKN4i4g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- scripts -->
+    <!-- Librerias Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
